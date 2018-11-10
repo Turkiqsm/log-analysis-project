@@ -9,7 +9,7 @@ def Q1():
     res = c.fetchone()
     print("The most popular three articles of all time : ")
     while res:
-        print (res[0], end=' = ') , print (res[1])
+        print (res[0], end=' = ') , print (res[1],end=' views \n')
 
         res = c.fetchone()
     print('-------------')
@@ -22,7 +22,7 @@ def Q2():
     res = c.fetchone()
     print("The most popular article authors of all time : ")
     while res:
-        print (res[0], end=' = ') , print (res[1])
+        print (res[0], end=' = ') , print (res[1] , end=' views \n')
 
         res = c.fetchone()
     print('-------------')
@@ -35,7 +35,7 @@ def Q3():
     res = c.fetchone()
     print("The days did more then 1% of requests lead to errors :")
     while res:
-        print (res[0], end=' = ') , print (res[1])
+        print (res[0], end=' = ') , print (res[1] , end=' % \n')
 
         res = c.fetchone()
   
