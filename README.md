@@ -1,6 +1,22 @@
+# Logs Analysis - Udacity
+### Full Stack Web Development ND
+_______________________
+## About
+in This project, we have the news database that has the logs table that shows the article logs and articles table articles table including author id, and the author table that shows the author details we will extract data such as 
+*  What are the most popular three articles of all time?
+* Who are the most popular article authors of all time?
+* On which days did more than 1% of requests lead to errors? 
 
-NEWS is a database has articles and authors and logs.
-## newsdb.py
+## Prerequisites
+* [Python 3](https://www.python.org/downloads/release/python-371/) 
+* [Vagrant](https://www.vagrantup.com/)
+* [VirtualBox 3](https://www.virtualbox.org/wiki/Downloads)
+
+
+## Getting Started 
+after installing vagrant you should ```cd``` into vagrant file, then move the ```log-analysis-project/``` inside it, then in the terminal run ```vagrant up```, after it finished run ```vagrant ssh``` now you are inside the Virtual Machine, you should now ```cd /vagrant/``` then ``` cd log-analysis-project/ ``` now you can run the python code by using ```python3 newsdb.py ```
+ 
+
 
 ### Q1 
 a function that returns The most popular three articles of all time 
