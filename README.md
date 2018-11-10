@@ -3,7 +3,7 @@ NEWS is a database has articles and authors and logs.
 ## newsdb.py
 
 ### Q1 
-a function that returns The most popular three articles of all time \
+a function that returns The most popular three articles of all time 
 
 ```python
 def Q1():
@@ -18,7 +18,7 @@ def Q1():
 ```
 
 ### Q2
-a function that returns The most popular article authors of all time\
+a function that returns The most popular article authors of all time
 ```python
 db = psycopg2.connect(database=DBNAME)
     c = db.cursor()
@@ -29,7 +29,7 @@ db = psycopg2.connect(database=DBNAME)
 ```
 
 ### Q3 
-a function that returns The days did more then 1% of requests lead to errors:\
+a function that returns The days did more then 1% of requests lead to errors:
 
 ``` python
     db = psycopg2.connect(database=DBNAME)
